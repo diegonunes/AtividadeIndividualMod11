@@ -69,6 +69,7 @@ public class TesteFun4Study {
                 // Pergunta se deseja criar outro estudante
                 opcao = Teclado.leInt("Deseja criar mais um estudante?\nDigite 0 para encerrar ou outro número para continuar\n");
             } while (opcao != 0 || contadorEstudantes < 4);
+            contadorEstudantes = 0;
             // Exibe os dados da cidade criada
             System.out.println("--- Dados da Cidade " + contadorCidades + " ---");
             cidade.exibeDados();
